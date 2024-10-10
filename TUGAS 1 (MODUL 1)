@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sewa mobil terpercaya dengan berbagai pilihan kendaraan">
+    <title>Rental Mobil Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .car-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .car-item {
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .car-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .car-item h3 {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rental Mobil Sederhana</h1>
+    <p>Sewa Mobil dengan Harga Terjangkau dan Pilihan Beragam</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#services">Layanan</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="home">
+    <h2>Mobil yang Tersedia</h2>
+    <div class="car-list">
+        <div class="car-item">
+            <img src="https://via.placeholder.com/250x150" alt="Toyota Avanza">
+            <h3>Toyota Avanza</h3>
+            <p>Harga: Rp 300.000/hari</p>
+        </div>
+        <div class="car-item">
+            <img src="https://via.placeholder.com/250x150" alt="Honda Jazz">
+            <h3>Honda Jazz</h3>
+            <p>Harga: Rp 350.000/hari</p>
+        </div>
+        <div class="car-item">
+            <img src="https://via.placeholder.com/250x150" alt="Suzuki Ertiga">
+            <h3>Suzuki Ertiga</h3>
+            <p>Harga: Rp 320.000/hari</p>
+        </div>
+        <div class="car-item">
+            <img src="https://via.placeholder.com/250x150" alt="Mitsubishi Xpander">
+            <h3>Mitsubishi Xpander</h3>
+            <p>Harga: Rp 400.000/hari</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah penyedia layanan rental mobil terpercaya dengan berbagai jenis mobil yang dapat disewa sesuai kebutuhan Anda. Kami memastikan kendaraan dalam kondisi terbaik dengan harga yang kompetitif.</p>
+</section>
+
+<section id="services">
+    <h2>Layanan Kami</h2>
+    <ul>
+        <li>Sewa mobil harian dan mingguan</li>
+        <li>Layanan supir berpengalaman</li>
+        <li>Antar-jemput ke bandara dan hotel</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Email: info@rentalmobil.com</p>
+    <p>Telepon: 0812-3456-7890</p>
+    <p>Alamat: Jl. Raya No.123, Jakarta</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Rental Mobil Sederhana</p>
+</footer>
+
+</body>
+</html>
